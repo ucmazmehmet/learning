@@ -7,7 +7,7 @@ void main() {
   var fiyat = 12.99;
   double ucret = 23.59;
 
-  print(fiyat);
+  print("son değişiklik 4 fiyat: $fiyat");
   print(ucret);
 
   fiyat = 67.99;
