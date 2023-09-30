@@ -1,6 +1,8 @@
 void main() {
   int sayi = 30;
 
+  int sayi2 = 40;
+
   sayi = 50;
 
   // final olan değişken sonuc bir kere değer atıldığında tekrar değiştirilemez
