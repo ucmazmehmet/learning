@@ -13,7 +13,30 @@ void main(){
     sayac+=1;
   }
 
-  //0 ile 8 arasında 2 şer (buradan devam edecegim )
+  //0 ile 8 arasında 2 şer
 
+  for(var i=0;i<9;i+=2){
+    print("Döngü 3 : $i");
+  }
+
+  var sayac1 = 0;
+
+  while(sayac1<9){
+    print("Döngü 4 : $sayac1");
+    sayac1+=2;//sayac1=sayac1+2
+  }
+
+  //8 den 0 2 ser azalsın
+
+  for(var i=8;i>-1;i-=2){
+    print("Döngü 5: $i");
+  }
+
+  var sayac2 = 8;
+
+  while(sayac2 >- 1){
+    print("Döngü 6 : $sayac2");
+    sayac2-=2;
+  }
 
 }
