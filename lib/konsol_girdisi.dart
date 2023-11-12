@@ -4,9 +4,11 @@ void main(List<String> args) {
   
 print("Adınızı giriniz");
 
-String isim = stdin.readLineSync()!;
+String? isim = stdin.readLineSync()!;
+isim = null;
 
-print("Adınız : $isim");
+String takma_isim = isim! +"_1234";
+print("Adınız:$takma_isim");
 
 print("1. sayıyı giriniz");
 int sayi1 = int.parse(stdin.readLineSync()!);
