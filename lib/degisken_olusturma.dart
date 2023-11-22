@@ -1,5 +1,3 @@
-import 'package:first/test3.dart';
-
 void main(){
 
   var ogrenciAdi = "Ahmet";
@@ -24,18 +22,5 @@ var sonuc2=  print("Ürün id : $urun_id");
   print("Ürün fiyat: $urun_fiyat");
   print("Ürün tedariçi: $urun_tedarikci");
 
-  ogrenciAdi ="cevher";
-
-  var a3  = int.parse("1234");
-  print(a3);
-
-  var a4 = topla(1,2);
-  print(a4);
-
-
-
-
-  print("ogrenci adi ve yasi $ogrenciAdi $ogrenciYasi");
-  //print("ogrenci adi ve yasi Ahmt  23");
 
 }
