@@ -1,14 +1,10 @@
 import 'package:first/homework_sicaklik_donusumu.dart';
 
-void main(){
-
-
+void main() {
   var tfahrenhiet = Sicaklik();
 
-  tfahrenhiet.derece = 20;
+  tfahrenhiet.derece = 30;
 
 
   tfahrenhiet.sicaklikf();
-
-
 }

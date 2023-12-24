@@ -23,12 +23,6 @@ for(var i=1; i<=veri; i++){
 
   print("$veri! = $f");
 
-
-
 }
-
-
-
-
 
 }

@@ -4,6 +4,7 @@ void main(){
 
   var d = dikdortgen();
 
-  d.alan(20, 10);
+  d.alan(30, 40);
+
 
 }
