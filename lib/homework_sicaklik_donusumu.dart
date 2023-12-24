@@ -1,4 +1,4 @@
-class sicaklik{
+class Sicaklik{
 
   late double derece;
   late String fahrenhiat;
