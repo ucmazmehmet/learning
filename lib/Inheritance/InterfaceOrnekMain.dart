@@ -1,4 +1,4 @@
-import 'package:first/Inheritance/AmasyaElmas%C4%B1.dart';
+import 'package:first/Inheritance/AmasyaElmasi.dart';
 import 'package:first/Inheritance/Aslan.dart';
 import 'package:first/Inheritance/Eatable.dart';
 import 'package:first/Inheritance/Elma.dart';

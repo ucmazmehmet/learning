@@ -7,5 +7,3 @@ class AmasyaElmasi extends Elma {
   }
 
 }
-
-
