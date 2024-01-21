@@ -6,8 +6,6 @@ class Ogrenciler{
 
   Ogrenciler(this.no, this.ad, this.sinif);
 
-
-
   @override
   // TODO: implement hashCode
   int get hashCode => this.no;
