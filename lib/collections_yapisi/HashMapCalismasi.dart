@@ -2,11 +2,14 @@ import 'dart:collection';
 
 void main(){
 
-  var iller = HashMap<int,String>();
+  Map<int, String> iller = {};
 
 
   iller[16] = "BURSA";
   iller[34] = "İSTANBUL";
+  //iller[34] = "İSTANBULlll";
+
+  //[{"key","value"}, {"06", "ankara"}
 
   print(iller);
 

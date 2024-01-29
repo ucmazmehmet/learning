@@ -10,10 +10,17 @@ void main(){
 
   var o4 = Ogrenciler(300, "Ece", "11Z");
 
-  var ogrenciler = HashSet<Ogrenciler>();
+  Set<Ogrenciler> ogrenciler = {};
   
   ogrenciler.add(o1);
   ogrenciler.add(o2);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
   ogrenciler.add(o3);
 
   ogrenciler.add(o4);

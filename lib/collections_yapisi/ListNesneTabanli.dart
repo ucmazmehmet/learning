@@ -6,12 +6,22 @@ void main(){
   var o2 = Ogrenciler(200, "Mehmet", "12A");
   var o3 = Ogrenciler(300, "Zeynep", "9C");
 
-  var ogrenciler = <Ogrenciler>[];
+  List<Ogrenciler> ogrenciler = [];
 
   ogrenciler.add(o1);
   ogrenciler.add(o2);
   ogrenciler.add(o3);
-  
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+  ogrenciler.add(o3);
+
   for(var o in ogrenciler){
     print("********");
     print("Ögrenci no : ${o.no}");
@@ -19,6 +29,10 @@ void main(){
     print("Ögrenci Sınıf : ${o.sinif}");
 
   }
+
+
+  var t = [];
+  var s = {};
 
 
 }
